@@ -7,7 +7,71 @@ let s:keepcpo = &cpo
 set cpo&vim
 
 let g:antovim_definitions = [
-  \   ['true', 'false']
+  \   ['acquire', 'release'],
+  \   ['add', 'remove'],
+  \   ['advance', 'retreat'],
+  \   ['allocate', 'deallocate'],
+  \   ['allow', 'deny'],
+  \   ['assemble', 'disassemble'],
+  \   ['assign', 'deassign'],
+  \   ['associate', 'dissociate'],
+  \   ['attach', 'detach'],
+  \   ['begin', 'end'],
+  \   ['bind', 'unbind'],
+  \   ['commit', 'rollback'],
+  \   ['compile', 'decompile'],
+  \   ['compose', 'parse'],
+  \   ['compress', 'decompress'],
+  \   ['connect', 'disconnect'],
+  \   ['construct', 'destruct'],
+  \   ['create', 'destroy'],
+  \   ['do', 'undo'],
+  \   ['enable', 'disable'],
+  \   ['encode', 'decode'],
+  \   ['encrypt', 'decrypt'],
+  \   ['enqueue', 'dequeue'],
+  \   ['enter', 'leave'],
+  \   ['expand', 'collapse'],
+  \   ['first', 'last'],
+  \   ['freeze', 'unfreeze'],
+  \   ['front', 'back'],
+  \   ['get', 'set'],
+  \   ['grant', 'revoke'],
+  \   ['head', 'tail'],
+  \   ['high', 'low'],
+  \   ['import', 'export'],
+  \   ['include', 'exclude'],
+  \   ['increase', 'decrease'],
+  \   ['increment', 'decrement'],
+  \   ['indent', 'dedent'],
+  \   ['inflate', 'deflate'],
+  \   ['inject', 'eject'],
+  \   ['input', 'output'],
+  \   ['insert', 'delete'],
+  \   ['install', 'uninstall'],
+  \   ['link', 'unlink'],
+  \   ['load', 'unload'],
+  \   ['lock', 'unlock'],
+  \   ['maximum', 'minimum'],
+  \   ['new', 'old'],
+  \   ['next', 'previous'],
+  \   ['open', 'close'],
+  \   ['paste', 'cut'],
+  \   ['push', 'pop'],
+  \   ['read', 'write'],
+  \   ['reference', 'dereference'],
+  \   ['register', 'deregister'],
+  \   ['resume', 'suspend'],
+  \   ['select', 'deselect'],
+  \   ['send', 'receive'],
+  \   ['serialize', 'deserialize'],
+  \   ['set', 'unset'],
+  \   ['set', 'up tear down'],
+  \   ['show', 'hide'],
+  \   ['start', 'stop'],
+  \   ['true', 'false'],
+  \   ['up', 'down'],
+  \   ['upper', 'lower'],
   \ ]
 
 autocmd FileType css,less let b:antovim_definitions = [
@@ -24,7 +88,7 @@ autocmd FileType html,ejs, let b:antovim_definitions = [
 
 command! Antovim call antovim#swap() | silent! call repeat#set("\<Plug>Antovim")
 
-nnoremap <Leader>s :Antovim<cr>
+nnoremap gs :Antovim<cr>
 
 let &cpo = s:keepcpo
 unlet s:keepcpo
