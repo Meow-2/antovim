@@ -70,6 +70,8 @@ let g:antovim_definitions = [
   \   ['show', 'hide'],
   \   ['start', 'stop'],
   \   ['true', 'false'],
+  \   ['True', 'False'],
+  \   ['TRUE', 'FALSE'],
   \   ['up', 'down'],
   \   ['upper', 'lower'],
   \ ]
