@@ -49,6 +49,8 @@ let g:antovim_definitions = [
   \   ['input', 'output'],
   \   ['insert', 'delete'],
   \   ['install', 'uninstall'],
+  \   ['left', 'right'],
+  \   ['Left', 'Right'],
   \   ['link', 'unlink'],
   \   ['load', 'unload'],
   \   ['lock', 'unlock'],
@@ -73,6 +75,7 @@ let g:antovim_definitions = [
   \   ['True', 'False'],
   \   ['TRUE', 'FALSE'],
   \   ['up', 'down'],
+  \   ['Up', 'Down'],
   \   ['upper', 'lower'],
   \ ]
 
