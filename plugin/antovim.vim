@@ -58,6 +58,7 @@ let g:antovim_definitions = [
   \   ['new', 'old'],
   \   ['next', 'previous'],
   \   ['open', 'close'],
+  \   ['off', 'on'],
   \   ['paste', 'cut'],
   \   ['push', 'pop'],
   \   ['read', 'write'],
