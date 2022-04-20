@@ -61,6 +61,7 @@ let g:antovim_definitions = [
   \   ['off', 'on'],
   \   ['paste', 'cut'],
   \   ['push', 'pop'],
+  \   ['public', 'private'],
   \   ['read', 'write'],
   \   ['reference', 'dereference'],
   \   ['register', 'deregister'],
