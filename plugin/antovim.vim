@@ -26,6 +26,7 @@ let g:antovim_definitions = [
   \   ['construct', 'destruct'],
   \   ['create', 'destroy'],
   \   ['do', 'undo'],
+  \   ['default', 'delete'],
   \   ['enable', 'disable'],
   \   ['encode', 'decode'],
   \   ['encrypt', 'decrypt'],
